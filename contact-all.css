@@ -1,0 +1,98 @@
+.contact {
+    width: fit-content;
+    margin: calc((100vh - 542.4px) / 2) auto 0;
+    height: 650px;
+}
+
+.contact h2 {
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.separator--pink {
+    width: 170px;
+    margin: auto;
+    border: .5px solid #EC7979;
+}
+
+.contact h5 {
+    text-align: center;
+    font-size: 18px;
+    color: #86878B;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 40px auto 71px;
+}
+
+textarea {
+    width: 570px;
+    height: 145px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    resize: none;
+}
+
+#contact__input {
+    width: 570px;
+    height: 55px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.contact__box {
+    width: 575px;
+}
+
+::placeholder {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #BDBDBD;
+}
+
+form {
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    margin: 70px 170px 0;
+}
+
+.contact button {
+    width: 370px;
+    height: 58px;
+    background-color: transparent;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    border: 2px solid #EC7979;
+    background-color: #EC7979;
+    cursor: pointer;
+    margin: 50px 570px 0;
+}
+.contact button:hover{
+    background: #AB4949;
+    color: #fff;
+    border: 2px solid #AB4949;
+
+}
+.contact button:active{
+    background: #EC7979;
+    color: #fff;
+    border: 2px solid #EC7979;
+    
+}

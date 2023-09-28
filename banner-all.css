@@ -1,0 +1,258 @@
+* {
+    resize: none;
+}
+
+.banner {
+    width: 1510px;
+    height: 650px;
+
+}
+
+.banner__header img {
+    position: relative;
+    width: 1510px;
+    height: 75px;
+    z-index: 10;
+
+}
+
+.header__logo {
+    position: absolute;
+    height: 75px;
+    width: 183px;
+    top: 0px;
+    left: 115px;
+    z-index: 15;
+}
+
+.text nav div {
+    position: relative;
+    display: inline-block;
+    width: 114px;
+    z-index: 15;
+   top: -45px;
+   left: 800px;
+}
+
+.text nav div a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-style: normal;
+    width: 570px;
+    line-height: 19px;
+    transition: 0.6s;
+}
+
+.text nav div a:hover{
+    background: #EC7979;
+    color: #fff;
+    text-transform: uppercase;
+}
+.text nav div a:active{
+    background: #AB4949;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner__city {
+    position: relative;
+    height: 950px;
+    top: -20px;
+    width: 1510px;
+    background: #000;
+}
+
+.banner__city img {
+    opacity: 0.5;
+    position: relative;
+    top: -75px;
+}
+
+.rectangle {
+    width: 470px;
+    height: 450px;
+    background: white;
+    position: absolute;
+    z-index: 100;
+    margin: -820px 170px 530px 870px;
+    border-radius: 10px;
+}
+
+.banner__box {
+    width: 370px;
+    position: absolute;
+    z-index: 100;
+    margin: -770px 750px  ;
+}
+
+.banner__city h4 {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin: -90px auto 60px;
+}
+.colortext{
+color: #EC7979;
+}
+input {
+    width: 370px;
+    height: 55px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    
+}
+.banner__box button {
+    position: relative;
+    width: 470px;
+    height: 60px;
+    background-color: #EC7979;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 110px -50px;
+
+}
+.banner__box button:hover{
+    background: #AB4949;
+    color: #fff;
+
+}
+.banner__box button:active{
+    background: #EC7979;
+    color: #fff;
+
+}
+.banner__city__paragraph img{
+    position: absolute;
+    margin: 306px 1170px 665px 170px;
+    height: 55px;
+    opacity: 1;
+}
+
+.banner__city__paragraph p{
+    margin: -865px 1170px 665px 170px;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    line-height: 56px;
+}
+.banner__city__paragraph h1 {
+    position: absolute;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    text-transform: uppercase;
+    margin: -770px 1170px 55px 170px;
+    width: 670px;
+}
+.banner__city__paragraph__separator--white {
+    position: absolute;
+    width: 170px;
+    border: .5px solid #FFFFFF;
+    margin: -525px 1170px 55px 170px;
+}
+
+.banner__city__paragraph h5 {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    margin: -480px 1170px 55px 170px;
+    width: 270px;
+}
+
+.banner__city__paragraph button {
+    position: absolute;
+    width: 370px;
+    height: 58px;
+    background-color: transparent;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+    border: 2px solid white;
+    cursor: pointer;
+    margin: -390px 1170px 55px 170px;
+}
+.banner__city__paragraph button:hover{
+    color: #EC7979;
+    background-color: transparent;
+    border:2px solid #EC7979 ;
+
+}
+.banner__city__paragraph button:active{
+    background: #AB4949;
+    color: #fff;
+    border:2px solid #AB4949 ;
+
+}
+
+.banner__city__bottom div {
+    background: #F8EFEF;
+    height: 140px;
+    margin-top: -143px;
+
+}
+.banner__city__bottom-left h4 {
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 18px;
+    margin-bottom: 33px;
+    margin-left: 170px;
+}
+
+.banner__city__bottom-left h5 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    color: #86878B;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    text-align: left;
+    width: 470px;
+    margin-left: 170px;
+}
+
+.banner__city__bottom-right {
+    margin-left: 670px;
+    height: 70px; 
+}
+
+
+.banner__city__bottom-right img {
+    margin-right: 30px;
+    margin-top: 105px;
+}
+

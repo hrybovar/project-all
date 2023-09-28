@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Raleway:wght@400;700&display=swap');
+@import url("tabs-all.css");
+@import url("reviews-all.css");
+@import url("stylish-all.css");
+@import url("contact-all.css");
+@import url("pricing-all.css");
+@import url("footer-all.css");
+@import url("about-all.css");
+@import url("banner-all.css");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
